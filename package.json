@@ -2,7 +2,7 @@
   "name": "github-issue-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Anurag9497.github.io/",
+  "homepage": "http://Anurag9497.github.io/Github-Issues-Page",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
