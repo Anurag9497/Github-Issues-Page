@@ -1,0 +1,26 @@
+#search {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.2rem;
+}
+.github-input {
+    outline: none;
+    width: 250px;
+    height: 25px;
+}
+#search-issue {
+    height: 30px;
+    margin-top: 1em;
+    outline: none;
+    border: 1px solid #24A0ED;
+    background-color: white;
+    color: #24A0ED;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#search-issue:hover {
+    background-color: #24A0ED;
+    color: black;
+}

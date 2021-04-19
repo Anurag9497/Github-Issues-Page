@@ -1,0 +1,33 @@
+#display {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1em;
+}
+.display-item {
+    margin-left: 15em;
+    margin-right: 15em;
+    border-width: 1px 2px 1px 2px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-radius: 2px;
+    padding: 0em 1em;
+}
+.display-item:hover {
+    background-color: whitesmoke;
+}
+#pagination {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+.upper-para {
+    color: black;
+}
+.bottom-para {
+    color: darkslategray;
+    font-size: 0.8rem;
+}
