@@ -15,7 +15,7 @@ function Search({setIssues, setPage, setShow, setFlag}) {
     const handleRepo = () => {
         if(repo.username!==" " && repo.reponame!==" ")
         {
-            fetch(`http://api.github.com/repos/${repo.username}/${repo.reponame}/issues`)
+            fetch(`https://api.github.com/repos/${repo.username}/${repo.reponame}/issues`)
             .then(res => {
                 if(res.status===200)
                     return res.json();
